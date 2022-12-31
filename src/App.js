@@ -4,7 +4,7 @@ import {io} from 'socket.io-client'
 import Message from './Message'
 import Timer from './Timer';
 
-const socket = io.connect('http://chatappserver-env.eba-fnwnjfmm.ap-northeast-1.elasticbeanstalk.com/')
+const socket = io.connect('http://localhost:5000')
     socket.on('connect', ()=>{
        console.log(`You connected with ${socket.id}`)
     })
