@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.chatBox{
+    margin: 0px 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .chatBox{
+        margin: 0px 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+.chatBox div{
+    width: 80%;
+}
+.left{
+    float: right;
+    width: 60%;
+}
+.right{
+    float: left;
+    width: 60%;
+}
+.right legend{
+    margin-left: 10%
+}
+.left legend{
+    margin-left: 70%;
+}
+fieldset{
+    border-radius: 8px;
+    border: 1px solid black;
+    position: relative;
+}
+.left p{
+    float: right;
+}
+.like{
+    width: 15px;
+    margin-top: 5%
+}
+.form{
+    margin-top: 5%;
+    margin-bottom: 1rem;
+}
+
+.form input{
+    width: 80%
+}
+.form button{
+    width: 20%
+}
+.chatSection{
+    overflow-y: scroll;
+    max-height: 80vh;
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.danger{
+    color: red;
+}
+
